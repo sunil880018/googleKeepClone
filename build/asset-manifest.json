@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/googleKeepClone/static/css/main.36d6f1f9.chunk.css",
+    "main.css": "/googleKeepClone/static/css/main.cd1221c3.chunk.css",
     "main.js": "/googleKeepClone/static/js/main.43f8f562.chunk.js",
     "main.js.map": "/googleKeepClone/static/js/main.43f8f562.chunk.js.map",
     "runtime-main.js": "/googleKeepClone/static/js/runtime-main.773fbfc6.js",
@@ -8,7 +8,7 @@
     "static/js/2.210bb70b.chunk.js": "/googleKeepClone/static/js/2.210bb70b.chunk.js",
     "static/js/2.210bb70b.chunk.js.map": "/googleKeepClone/static/js/2.210bb70b.chunk.js.map",
     "index.html": "/googleKeepClone/index.html",
-    "static/css/main.36d6f1f9.chunk.css.map": "/googleKeepClone/static/css/main.36d6f1f9.chunk.css.map",
+    "static/css/main.cd1221c3.chunk.css.map": "/googleKeepClone/static/css/main.cd1221c3.chunk.css.map",
     "static/js/2.210bb70b.chunk.js.LICENSE.txt": "/googleKeepClone/static/js/2.210bb70b.chunk.js.LICENSE.txt",
     "static/media/google_logo.63312655.png": "/googleKeepClone/static/media/google_logo.63312655.png",
     "static/media/map_logo.d44e2a5e.jpg": "/googleKeepClone/static/media/map_logo.d44e2a5e.jpg",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.773fbfc6.js",
     "static/js/2.210bb70b.chunk.js",
-    "static/css/main.36d6f1f9.chunk.css",
+    "static/css/main.cd1221c3.chunk.css",
     "static/js/main.43f8f562.chunk.js"
   ]
 }
