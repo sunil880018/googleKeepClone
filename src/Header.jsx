@@ -2,7 +2,7 @@ import React, { useCallback, useState } from "react";
 import logo from "./images/keep_images.png";
 import google from "./images/google_logo.png";
 import Gmail from "./images/Gmail-logo.png";
-import Map from "./images/map_logo.jpg";
+import Map from "./images/map_logo.png";
 import PlayStore from "./images/playstore_logo.png";
 import MenuIcon from '@material-ui/icons/Menu';
 import RefreshIcon from '@material-ui/icons/Refresh';
@@ -78,7 +78,7 @@ function Header(props){
                  </div>
                  <div>
                       <a href="https://www.google.com/maps">
-                        <img src ={Map} width="50px" height="30px" />
+                        <img src ={Map} width="30px" height="30px" />
                       </a>
                       <a href="https://www.google.com/maps">Map</a>
                  </div>
