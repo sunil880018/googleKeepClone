@@ -32,7 +32,8 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  border:1px solid #ccc;
+  background-color: #f1f1f1;
+  border-radius: 10px;
 }
 .header .search-p{
   margin-left:10px;
@@ -43,9 +44,11 @@ body{
   width: 350px;
   height: 45px;
   padding: 20px;
-  font-size: 13px;
+  font-size: 16px;
   border: none;
   outline: none;
+  background-color: #f1f1f1;
+  border-radius: 10px;
 }
 .header .setting{
   display: flex;
@@ -56,10 +59,11 @@ body{
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  margin-right: 10px;
 }
 .header button{
   padding: 8px;
-  background-color: #fff;
+  border-radius: 50%;
   outline: none;
   border: none;
   color:#5f6368;
@@ -70,8 +74,8 @@ body{
   border-radius: 50%;
 }
 .open-menu{
-  width: 300px;
-    height: 80%;
+    width: 300px;
+    height: 100vh;
     position: absolute;
     top: 78px;
     left: 0;
@@ -91,6 +95,12 @@ body{
   padding: 10px;
   color: #5f6368;
   align-items: center;
+  margin-top: 20px;
+}
+.open-menu div:hover{
+  background-color: #feefc3;;
+  cursor: pointer;
+  border-radius: 20px;
 }
 .open-menu div a{
   margin-left: 20px;
@@ -98,6 +108,17 @@ body{
   color: #5f6368;
   font-size: 14px;
   cursor: pointer;
+}
+.open-menu-active{
+  background-color:#feefc3;;
+  border-radius: 20px;
+}
+.setting-option > div{
+  text-align: center;
+}
+.setting-option > div:hover{
+  background-color: #feefc3;;
+  border-radius: 10px;
 }
 .setting-option , .View-option{
   width: 160px;
@@ -146,7 +167,7 @@ body{
   width:400px;
   height:200px;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 40px;
   box-shadow: 1px 2px 5px 0px #ccc;
   border-radius: 10px;
 }
@@ -174,17 +195,15 @@ body{
   height: 50px;
   outline: none;
   border: 1px solid #fff;
-  background-color: #fff;
-  box-shadow: 4px 4px 4px 0px #ccc;
+  background-color:  #ff8c1a;
   cursor: pointer;
   font-weight: bold;
 }
 .add:hover{
-  border:2px solid #ff8c1a;
-  box-shadow: 4px 4px 4px 0px #ff8c1a;
+  opacity: 0.8;
 }
 .plus{
-  color: #ff8c1a;
+  color: #fff;
   font-size: 30px;
 }
 
@@ -242,6 +261,9 @@ body{
 }
 .footer p{
   text-align: center;
+}
+.developer-name{
+  color: #ff8c1a;
 }
 
 @media(max-width:800px){

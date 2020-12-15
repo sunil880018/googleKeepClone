@@ -38,7 +38,7 @@ function Header(props){
           <img src={logo} alt="keep_images" width="40" height="40" className="klogo"/>
           <a href="#" className="keep">Keep</a>
           <div className="open-menu">
-             <div>
+             <div className="open-menu-active">
              <EmojiObjectsOutlinedIcon/>
              <a href="#">Notes</a>
              </div>
